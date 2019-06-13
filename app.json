@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/input/input",
+    "pages/logs/logs",
+    "pages/gdapi/gdapi",
+    "pages/jas/jas",
+    "pages/index/index",
+    "pages/routes/routes",
+    "pages/info/info",
+    "pages/walk/walk",
+    "pages/inputtip/inputtip",
+    "pages/citychoose/citychoose",
+    "pages/setting/setting",
+    "pages/systeminfo/systeminfo",
+    "pages/fuwu/fuwu",
+    "pages/tuijian/tuijian",
+    "pages/destination/destination",
+    "pages/poi_list/poi_list",
+    "pages/trip_list/trip_list",
+    "pages/waypoint/waypoint",
+    "pages/user/user",
+    "pages/trip/trip"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fa0",
+    "navigationBarTitleText": "易life",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b0b0b0",
+    "selectedColor": "#4abdcc",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/input/input",
+        "text": "周边",
+        "iconPath": "imgs/icon01.png",
+        "selectedIconPath": "imgs/icon01.png"
+      },
+      {
+        "pagePath": "pages/tuijian/tuijian",
+        "text": "推荐",
+        "iconPath": "/images/index_normal.png",
+        "selectedIconPath": "/images/index_pressed.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "天气",
+        "iconPath": "/imgs/weather2.png",
+        "selectedIconPath": "/imgs/weather1.png"
+      }
+    ]
+  }
+}
